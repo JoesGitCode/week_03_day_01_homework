@@ -53,6 +53,7 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 UPDATE people SET name = 'Krusty the Clown' WHERE name = 'Crusty the Clown';
 INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2019, '00:00');
 DELETE FROM movies WHERE title = 'Batman Begins';
+DELETE FROM movies WHERE id IN (17, 18, 19);
 INSERT INTO people (name) VALUES ('Bart Simpson');
 DELETE FROM people WHERE id = 11;
 UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 2';

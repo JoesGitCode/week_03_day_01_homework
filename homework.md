@@ -66,3 +66,5 @@ UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 2';
 ## Extension
 
 1.  Research how to delete multiple entries from your table in a single command.
+
+DELETE FROM movies WHERE id IN (17, 18, 19);
